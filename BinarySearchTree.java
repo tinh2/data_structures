@@ -37,6 +37,7 @@ class Node {
     this.data = data;
   }
 
+  @Override
   public String toString() {
     return Integer.toString(data);
   }
