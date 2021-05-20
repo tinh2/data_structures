@@ -5,8 +5,9 @@ import java.util.concurrent.ThreadLocalRandom;
 public class BinarySearchTree {
   public static void main(String[] args) {
     /**
-     * A tree has a root node and children nodes, Binary trees have a left child and a right child
-     * A Binary Search Trees' left nodes are less than the root node and all right nodes
+     * A tree has a root node and children nodes, Binary trees have a left child and
+     * a right child A Binary Search Trees' left nodes are less than the root node
+     * and all right nodes
      */
 
     // pick a number between 0 and 100(inclusive) to be root Node
@@ -22,7 +23,7 @@ public class BinarySearchTree {
     int favNum = 5;
     bst.printInOrder();
     if (bst.contains(favNum)) {
-      System.out.println("Found your favorite number in Node: " + bst.find(favNum));
+      System.out.println("Found ur favorite number in Node: " + bst.find(favNum));
     }
     System.out.println("Root node: " + bst.toString());
   }
